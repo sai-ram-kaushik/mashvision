@@ -34,17 +34,23 @@ const Footer = () => {
             <div className="flex flex-col items-start gap-2">
               <div className="flex items-center gap-2">
                 <IoMdMail size={15} />
-                <p>mashvision@gmail.com</p>
+                <div className="flex flex-col items-start">
+                  <p>prashant@mashvision.in</p>
+                  <p>info@mashvision.in</p>
+                </div>
               </div>
 
               <div className="flex items-center gap-2">
                 <FaPhoneAlt size={15} />
-                <p>+91 999999999</p>
+                <p>+91 9953034390</p>
               </div>
 
-              <div className="flex items-center gap-2">
-                <FaLocationDot size={15} />
-                <p>New Delhi, India</p>
+              <div className="flex items-start gap-2">
+                <FaLocationDot size={25} />
+                <p>
+                  4th Floor, Plot No.94, Sector 13 - Dwarka, Opposite Metro
+                  Station, New Delhi - 110078
+                </p>
               </div>
             </div>
           </div>
@@ -68,7 +74,8 @@ const Footer = () => {
               return (
                 <div
                   key={index}
-                  className="bg-primary rounded-full text-background p-2">
+                  className="bg-primary rounded-full text-background p-2"
+                >
                   <div>{social.icon}</div>
                 </div>
               );
