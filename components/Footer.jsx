@@ -68,7 +68,7 @@ const Footer = () => {
         <hr className="mt-5" />
 
         <div className="flex flex-col lg:flex-row gap-3 items-center justify-between py-3">
-          <p>2024 - All Rights Reserved</p>
+          <p>2024 - All Rights Reserved | MashVision</p>
           <div className="flex items-center gap-3 text-xl">
             {socials.map((social, index) => {
               return (
