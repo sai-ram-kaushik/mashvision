@@ -1,0 +1,36 @@
+{
+  "homePage": {
+    "title": "Crafting software solutions tailored to your needs.",
+    "content": "We specialize in creating bespoke software solutions designed to perfectly fit your unique requirements and goals, ensuring optimal performance and efficiency",
+    "buttonTitle": "Contact Us",
+    "image": "/software.svg"
+  },
+
+  "services": {
+    "title": "Services we provide",
+    "content": [
+      {
+        "label": "Custom Software Development",
+        "desc": "Tailored development of software applications, tailored to the specific needs of clients"
+      },
+      {
+        "label": "Custom Software Development",
+        "desc": "Tailored development of software applications, tailored to the specific needs of clients"
+      },
+      {
+        "label": "Custom Software Development",
+        "desc": "Tailored development of software applications, tailored to the specific needs of clients"
+      },
+      {
+        "label": "Custom Software Development",
+        "desc": "Tailored development of software applications, tailored to the specific needs of clients"
+      }
+    ]
+  },
+
+  "aboutCompany": {
+    "title": "About Company",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sunt ad harum delectus ullam ea assumenda suscipit optio ipsum quos. Inventore officia iusto illo reiciendis dolores perspiciatis qui non sint. Dicta amet necessitatibus aliquid distinctio adipisci. Similique reprehenderit eveniet vero eligendi harum atque repellat, fugiat consequuntur fuga aspernatur, quibusdam suscipit cupiditate eius optio error praesentium laudantium commodi possimus voluptatem, magni ullam inventore deleniti! Reiciendis veritatis neque quo modi itaque ut, commodi magni aperiam exercitationem accusantium illo ipsum, tempora in dignissimos? Aliquid pariatur, atque nobis facere omnis numquam earum labore, facilis sunt accusantium perspiciatis qui esse at sint ea harum dignissimos.",
+    "image": "/about.svg"
+  }
+}
