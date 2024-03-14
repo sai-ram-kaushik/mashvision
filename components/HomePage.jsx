@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import TransitionEffect from "./TransitionEffect";
+import Link from "next/link";
 
 const HomePage = ({ homePage }) => {
   const { title, content, buttonTitle, image } = homePage;
@@ -11,7 +12,9 @@ const HomePage = ({ homePage }) => {
         <div className="flex flex-col items-start lg:items-center justify-center gap-3 lg:gap-4">
           <h1 className="leading-[3rem]">{title}</h1>
           <p className="max-w-[900px] lg:text-center">{content}</p>
-          <Button title={buttonTitle} />
+          <Link href="/engage-with-us">
+            <Button title={buttonTitle} />
+          </Link>
           <img src={image} />
         </div>
       </div>

@@ -16,12 +16,14 @@ const Navbar = () => {
     <div className="px-5 lg:px-10 h-20 w-full">
       <div className="container mx-auto w-full h-full">
         <div className="flex items-center justify-between w-full h-full">
-          <div className="flex items-center gap-2">
-            <Image src={logo} alt="logo" width={70} height={70} />
-            <h3>
-              Mash<span>Vision</span>
-            </h3>
-          </div>
+          <Link href="/">
+            <div className="flex items-center gap-2">
+              <Image src={logo} alt="logo" width={70} height={70} />
+              <h3>
+                Mash<span>Vision</span>
+              </h3>
+            </div>
+          </Link>
 
           <div className="hidden lg:flex items-center gap-6">
             {menuLinks.map((link, index) => {
@@ -33,7 +35,9 @@ const Navbar = () => {
                 </ul>
               );
             })}
-            <Button title="Contact Us" />
+            <Link href="/engage-with-us">
+              <Button title="Engage with us" />
+            </Link>
           </div>
 
           <div
@@ -65,15 +69,15 @@ const Navbar = () => {
               >
                 <Link
                   href={link.path}
-                  className="text-background hover:text-secondary text-center duration-200"
+                  className="text-background hover:text-secondary duration-200"
                 >
                   <li>{link.label}</li>
                 </Link>
               </ul>
             ))}
 
-            <Link href="/signup" onClick={handleChange}>
-              <Button title="Contact Us" />
+            <Link href="/contact-us" onClick={handleChange}>
+              <Button title="Engage with us" />
             </Link>
           </div>
         </div>

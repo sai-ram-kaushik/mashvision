@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <main>
       <HomePage homePage={data.homePage} />
-      <Services services={data.services} />
       <AboutCompany about={data.aboutCompany} />
+      <Services services={data.services} />
     </main>
   );
 }

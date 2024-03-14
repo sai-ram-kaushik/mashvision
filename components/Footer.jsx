@@ -8,15 +8,15 @@ const Footer = () => {
   return (
     <div className="w-full mt-10 p-3 px-5 lg:px-10">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-4 items-center gap-5 lg:gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-4 items-start  gap-5 lg:gap-16">
           <div className="flex flex-col items-start gap-3">
             <h3>
               Mash<span>Vision</span>
             </h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
-              magnam culpa, sequi voluptatem ipsum sapiente esse distinctio
-              incidunt ducimus autem.
+              We specialize in creating bespoke software solutions designed to
+              perfectly fit your unique requirements and goals, ensuring optimal
+              performance and efficiency
             </p>
           </div>
 
