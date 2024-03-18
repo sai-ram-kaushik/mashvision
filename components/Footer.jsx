@@ -10,9 +10,11 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-4 items-start  gap-5 lg:gap-16">
           <div className="flex flex-col items-start gap-3">
-            <h3>
-              Mash<span>Vision</span>
-            </h3>
+            <Link href="/">
+              <h3>
+                Mash<span>Vision</span>
+              </h3>
+            </Link>
             <p>
               We specialize in creating bespoke software solutions designed to
               perfectly fit your unique requirements and goals, ensuring optimal
@@ -23,9 +25,15 @@ const Footer = () => {
           <div className="flex flex-col items-start gap-5">
             <p className="font-bold text-primary">About Us</p>
             <div className="flex flex-col items-start gap-2">
-              <p className="hover:text-primary cursor-pointer">Home</p>
-              <p className="hover:text-primary cursor-pointer">About Us</p>
-              <p className="hover:text-primary cursor-pointer">Services</p>
+              <Link href="/">
+                <p className="hover:text-primary cursor-pointer">Home</p>
+              </Link>
+              <Link href="/#about-company">
+                <p className="hover:text-primary cursor-pointer">About Us</p>
+              </Link>
+              <Link href="/#services">
+                <p className="hover:text-primary cursor-pointer">Services</p>
+              </Link>
             </div>
           </div>
 
@@ -58,9 +66,15 @@ const Footer = () => {
           <div className="flex flex-col items-start gap-5">
             <p className="font-bold text-primary">Privacy</p>
             <div className="flex flex-col items-start gap-2">
-              <p>FAQ</p>
-              <p>Terms</p>
-              <p>Privacy</p>
+              <Link href="/faq">
+                <p>FAQ</p>
+              </Link>
+              <Link href="/terms">
+                <p>Terms</p>
+              </Link>
+              <Link href="/privacy">
+                <p>Privacy</p>
+              </Link>
             </div>
           </div>
         </div>
