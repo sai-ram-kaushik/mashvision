@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Services = ({ services }) => {
@@ -12,13 +13,12 @@ const Services = ({ services }) => {
         <div className="grid grid-cols-1 md:grid-cols-3 items-start gap-10 mt-5">
           {content.map((service, index) => {
             return (
-              <div
-                key={index}
-                className="flex flex-col items-start max-w-[35rem] min-h-[12rem] border-2 border-secondary p-3 rounded-xl"
-              >
-                <h4 className="font-bold text-secondary">{service.label}</h4>
-                <p className="max-w-[500px]">{service.desc}</p>
-              </div>
+              <Link href={service.path} key={index}>
+                <div className="flex flex-col items-start max-w-[35rem] min-h-[12rem] border-2 border-secondary p-3 rounded-xl">
+                  <h4 className="font-bold text-secondary">{service.label}</h4>
+                  <p className="max-w-[500px]">{service.desc}</p>
+                </div>
+              </Link>
             );
           })}
         </div>
